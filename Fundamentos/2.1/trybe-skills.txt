@@ -1,4 +1,9 @@
 - Unix
 - Bash
 - Git
-Internet - entendendo como ela funciona 
+- Unix
+- Bash
+- Git
+- HTML
+- CSS
+-Internet - entendendo como ela funciona 
