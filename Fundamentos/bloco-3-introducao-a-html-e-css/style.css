@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.menu ul li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu{
+    padding-top: 30px;
+}
+
+.section-content p {
+    width: 80%;
+    
+}
+.section-content{
+    border: 2px solid black;
+    padding-left: 10px;
+}
+.section-content img{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.aside-bar{
+    position: absolute;
+    left: 80%;
+    top: 330px;
+    border: 2px solid black;
+}
+.content2{
+    border: 1px solid black;
+}
+
+.content2 img{
+    width: 250px;
+    height: 250px;
+}
+
+.content2 section, img{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+}
