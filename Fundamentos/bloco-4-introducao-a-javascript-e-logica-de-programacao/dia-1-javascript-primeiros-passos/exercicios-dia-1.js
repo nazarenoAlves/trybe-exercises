@@ -72,30 +72,30 @@
 
 // 6 - Movimento da peça de xadrez
 
-let peca = 'Bispo' ;
+let peca = 'Bispo';
 
 switch (peca.toLowerCase()){
-    case 'Bispo':
+    case 'bispo':
         console.log('Diagonais');
     break ;
 
-    case 'Peão':
+    case 'peão':
         console.log('frente');
     break ;
 
-    case 'Torre':
+    case 'torre':
         console.log('Qualquer casa ao longo da fileira ou coluna em que se encontra');
     break ;
 
-    case 'Cavalo':
+    case 'cavalo':
         console.log('O cavalo pode ser movido para uma das casas mais próximas a que ocupa que não esteja na mesma fileira, coluna ou diagonal');
     break ;
 
-    case 'Rainha':
+    case 'rainha':
         console.log('A dama pode ser movida para qualquer casa ao longo da fileira, coluna ou diagonal em que se encontra.');
     break ;
 
-    case 'Rei':
+    case 'rei':
         console.log(' Movendo-o para uma casa vizinha');
     break ;  
 }
