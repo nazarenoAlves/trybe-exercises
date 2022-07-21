@@ -102,7 +102,7 @@
 
 // Retornar notas em porcetagem A,F
 
-  let notas = 40;
+  /*let notas = 40;
   let porcetagem = '?'
  
   if(notas >= 90){
@@ -124,4 +124,15 @@
     porcetagem = 'Nota F, Você quer ajuda nesse assunto?'
   }
 
-  console.log(porcetagem)
+  console.log(porcetagem)*/
+
+  // numero par e numero impar
+
+ /* let numero = 10 ;
+
+  if(numero % 2 == 0){
+    console.log('Número par')
+  }
+  else{
+    console.log("numero impar")
+  }*/
