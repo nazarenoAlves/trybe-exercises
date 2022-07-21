@@ -72,9 +72,9 @@
 
 // 6 - Movimento da peça de xadrez
 
-let peca = 'Bispo';
+/*let peca = 'Bispo';
 
-switch (peca.toLowerCase()){
+/switch (peca.toLowerCase()){
     case 'bispo':
         console.log('Diagonais');
     break ;
@@ -98,4 +98,30 @@ switch (peca.toLowerCase()){
     case 'rei':
         console.log(' Movendo-o para uma casa vizinha');
     break ;  
-}
+}*/
+
+// Retornar notas em porcetagem A,F
+
+  let notas = 40;
+  let porcetagem = '?'
+ 
+  if(notas >= 90){
+    porcetagem = 'Parabéns Nota A!'
+  }
+  else if(notas >=80){
+    porcetagem = 'Parabens Nota B!'
+  }
+  else if(notas>=70){
+    porcetagem = 'Parabens Nota C !'
+  }
+  else if(notas>=60){
+    porcetagem = 'Nota D, Vamos estudar um pouco mais?'
+  }
+  else if (notas>= 50){
+    porcetagem = 'Nota E, Vamos estudar um pouco mais?'
+  }
+  else{
+    porcetagem = 'Nota F, Você quer ajuda nesse assunto?'
+  }
+
+  console.log(porcetagem)
