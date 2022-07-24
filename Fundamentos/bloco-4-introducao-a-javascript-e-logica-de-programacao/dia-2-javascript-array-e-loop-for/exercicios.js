@@ -63,4 +63,8 @@ for(let index = 0; index < numbers.length; index++){
   }
   console.log(menor);*/
 
-
+novoArray = [];
+ for(let index = 0; index >= 25; index++){
+    novoArray[novoArray.lenght] +1;
+ }
+ console.log(novoArray);
