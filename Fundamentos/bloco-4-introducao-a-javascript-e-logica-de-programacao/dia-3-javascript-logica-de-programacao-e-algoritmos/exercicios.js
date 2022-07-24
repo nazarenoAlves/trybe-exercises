@@ -12,3 +12,12 @@
     
     }
     console.log(resultado);*/
+
+  /*let array = ['java', 'javascript', 'python', 'html', 'css'];
+  let maiorPalavra = '';
+  for(let index of array){
+    if(array.length > maiorPalavra.length){
+        maiorPalavra = index;
+    }
+  }
+  console.log(maiorPalavra)*/
