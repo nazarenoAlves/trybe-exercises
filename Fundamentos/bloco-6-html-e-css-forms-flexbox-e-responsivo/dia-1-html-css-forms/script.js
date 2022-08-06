@@ -16,4 +16,4 @@ function getUserValue(event){
     localStorage.setItem('dateUser', dateUser);
     localStorage.setItem('autorizeUser', autorizeUser);
 }
-submit.addEventListener('click' getUserValue);
+submit.addEventListener('click', getUserValue);
