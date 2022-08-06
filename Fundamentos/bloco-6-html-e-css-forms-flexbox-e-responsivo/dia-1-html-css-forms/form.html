@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe Trip</title>
+</head>
+<body>
+  <header>
+    <h1>Trybe Trip</h1>
+  </header>
+  <form action="" method="get">
+    <main>
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" required autocomplete="off" id="name" minlength="10" maxlength="40">
+        <label for="email">Email:</label>
+        <input type="email" required autocomplete="off" id="email" minlenght="10" maxlenght="50">
+      </div>
+      <div>
+        
+        <input type="radio" id="cidade" name="local" class="local">
+        <label for="cidade">Cidade</label>
+        
+        <input type="radio" id="campo" name="local" class="local">
+        <label for="campo">Campo</label>
+        
+        <input type="radio" id="praia" name="local" class="local">
+        <label for="praia">Praia</label>
+        
+        <input type="radio" id="montanhas" name="local" class="local">
+        <label for="montanhas">Montanhas</label>
+        
+      </div>
+      <div>
+        <label for="text">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <textarea id="text" maxlength="500"></textarea>
+      </div>
+      <div>
+        <label for="date">Qual a melhor data para sua viagem ?</label>
+        <input type="date" id="date">
+      </div>
+      <div>
+        <input type="checkbox" id="cofirm-newsletter" class="confirmNewsandImage">
+        <label for="confirm-newsletter">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input type="checkbox" id="confirm-images" class="confirmNewsandImage">
+        <label for="confirm-images">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </div>
+      <div>
+        <button type="submit" id="enviar">Enviar</button>
+        <button type="submit" id="clear">Limpar Formulario</button>
+      </div>
+    </main>
+  </form>   
+    
+</body>
+</html>
