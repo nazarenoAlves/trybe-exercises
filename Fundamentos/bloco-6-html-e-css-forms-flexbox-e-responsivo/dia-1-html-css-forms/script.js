@@ -9,11 +9,11 @@ const clearDisplay = document.getElementById('clear')
 
 function getUserValue(event){
     event.preventDefault();
-    localStorage.setItem('nameUser', nameUser);
-    localStorage.setItem('emailUser', emailUser);
-    localStorage.setItem('localUser', localUser);
-    localStorage.setItem('textUser', textUser);
-    localStorage.setItem('dateUser', dateUser);
-    localStorage.setItem('autorizeUser', autorizeUser);
+    localStorage.setItem('nameUser', nameUser.value);
+    localStorage.setItem('emailUser', emailUser.value);
+    localStorage.setItem('localUser', localUser.value);
+    localStorage.setItem('textUser', textUser.value);
+    localStorage.setItem('dateUser', dateUser.value);
+    localStorage.setItem('autorizeUser', autorizeUser).value;
 }
 submit.addEventListener('click', getUserValue);
